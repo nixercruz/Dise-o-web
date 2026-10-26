@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="titulo descripcion">
+<title id="titulo">De una necesidad a los requisitos</title>
+<desc id="descripcion">Diagrama con tres etapas: escuchar al usuario, organizar necesidades y definir requisitos.</desc>
+<rect width="900" height="360" rx="24" fill="#eaf2fb"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+  <g transform="translate(65 70)">
+    <rect width="210" height="220" rx="18" fill="#ffffff" stroke="#b9cce0" stroke-width="3"/>
+    <circle cx="105" cy="65" r="30" fill="#287c86"/>
+    <path d="M58 145 Q105 95 152 145 L152 165 L58 165Z" fill="#173b63"/>
+    <path d="M82 58 Q105 35 128 58" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <text x="105" y="195" font-size="21" font-weight="bold" fill="#173b63">Escuchar</text>
+  </g>
+  <path d="M290 180 H335 M323 168 L335 180 L323 192" fill="none" stroke="#16745b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(345 70)">
+    <rect width="210" height="220" rx="18" fill="#ffffff" stroke="#b9cce0" stroke-width="3"/>
+    <rect x="64" y="35" width="82" height="105" rx="8" fill="#eaf2fb" stroke="#287c86" stroke-width="5"/>
+    <path d="M80 65 H130 M80 87 H130 M80 109 H118" stroke="#173b63" stroke-width="6" stroke-linecap="round"/>
+    <text x="105" y="195" font-size="21" font-weight="bold" fill="#173b63">Organizar</text>
+  </g>
+  <path d="M570 180 H615 M603 168 L615 180 L603 192" fill="none" stroke="#16745b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(625 70)">
+    <rect width="210" height="220" rx="18" fill="#ffffff" stroke="#b9cce0" stroke-width="3"/>
+    <circle cx="105" cy="85" r="48" fill="#16745b"/>
+    <path d="M80 85 L98 103 L132 65" fill="none" stroke="#ffffff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="105" y="195" font-size="21" font-weight="bold" fill="#173b63">Definir</text>
+  </g>
+</g>
+</svg>

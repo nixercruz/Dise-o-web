@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía para identificar requisitos de software</title>
+</head>
+<body>
+    <h1>Guía para identificar requisitos funcionales y no funcionales</h1>
+    <p>En esta guía aprenderás a reconocer qué debe hacer un sistema y qué condiciones debe cumplir antes de comenzar a desarrollarlo.</p>
+
+    <h2>1. ¿Qué son los requisitos?</h2>
+    <p>Los requisitos describen las necesidades y expectativas de las personas que utilizarán un sistema. Sirven como guía para planear, construir y comprobar que el software resuelva el problema correcto.</p>
+    <p>Antes de escribir requisitos, identifica <strong>qué problema se quiere solucionar</strong>, quién utilizará el sistema y qué resultado espera obtener.</p>
+    <img src="imagenes/requisitos.svg" alt="Diagrama que muestra las etapas de escuchar al usuario, organizar sus necesidades y definir requisitos">
+
+    <h2>2. ¿Cómo obtener los requisitos?</h2>
+    <p>Puedes seguir estos pasos para comprender la necesidad del usuario y convertirla en requisitos claros:</p>
+    <ol>
+        <li><strong>Identifica a los interesados:</strong> pregunta quién utilizará el sistema y quién se verá afectado por él.</li>
+        <li><strong>Comprende el problema:</strong> conversa con los usuarios sobre las dificultades que tienen y lo que necesitan mejorar.</li>
+        <li><strong>Recopila información:</strong> realiza entrevistas, encuestas, observación o revisa los documentos y procesos actuales.</li>
+        <li><strong>Organiza las necesidades:</strong> separa las funciones que debe realizar el sistema de las condiciones de calidad que debe cumplir.</li>
+        <li><strong>Redacta y valida:</strong> escribe cada requisito de forma clara, verifica que sea posible comprobarlo y confirma con el usuario que sea correcto.</li>
+    </ol>
+    <p><strong>Consejo:</strong> evita suponer lo que necesita el usuario. Pregunta, toma apuntes y confirma tus conclusiones antes de continuar.</p>
+
+    <h2>3. Requisitos funcionales</h2>
+    <p>Indican <strong>qué debe hacer el sistema</strong>. Describen funciones, acciones o servicios que estarán disponibles para los usuarios.</p>
+    <h3>Ejemplo: sistema para una biblioteca</h3>
+    <ul>
+        <li>El sistema debe permitir registrar nuevos libros.</li>
+        <li>El sistema debe permitir buscar libros por título o autor.</li>
+        <li>El sistema debe registrar el préstamo de un libro a un aprendiz.</li>
+        <li>El sistema debe mostrar la fecha de devolución de cada préstamo.</li>
+    </ul>
+    <p>Una forma útil de redactarlos es: <em>“El sistema debe permitir que [usuario] realice [acción]”.</em></p>
+
+    <h2>4. Requisitos no funcionales</h2>
+    <p>Describen <strong>cómo debe funcionar el sistema</strong> o qué características de calidad y restricciones debe cumplir. No se enfocan en una función específica, sino en las condiciones del servicio.</p>
+    <h3>Ejemplo: sistema para una biblioteca</h3>
+    <ul>
+        <li><strong>Rendimiento:</strong> los resultados de una búsqueda deben mostrarse en máximo 3 segundos bajo las condiciones acordadas.</li>
+        <li><strong>Seguridad:</strong> las contraseñas deben almacenarse de forma segura y no como texto visible.</li>
+        <li><strong>Usabilidad:</strong> las opciones principales deben tener nombres claros y ser fáciles de encontrar.</li>
+        <li><strong>Disponibilidad:</strong> el sistema debe estar disponible durante el horario de atención definido por la biblioteca.</li>
+    </ul>
+    <p>Procura que estos requisitos sean medibles. Por ejemplo, “debe ser rápido” es muy general; “debe responder en máximo 3 segundos” se puede comprobar.</p>
+
+    <h2>5. ¿Cómo distinguirlos?</h2>
+    <p>Hazte esta pregunta: <strong>¿describe una acción que el sistema realiza o una condición de calidad?</strong></p>
+    <ul>
+        <li>“Registrar un préstamo” es un requisito funcional porque describe una acción del sistema.</li>
+        <li>“Mostrar la pantalla en menos de 2 segundos” es un requisito no funcional porque establece una condición de rendimiento.</li>
+    </ul>
+
+    <h3>Plantilla para tus apuntes</h3>
+    <p>Al entrevistar a un usuario, puedes organizar la información así:</p>
+    <ul>
+        <li><strong>Necesidad:</strong> ¿qué problema tiene?</li>
+        <li><strong>Usuario:</strong> ¿quién necesita la solución?</li>
+        <li><strong>Requisito funcional:</strong> ¿qué acción debe permitir el sistema?</li>
+        <li><strong>Requisito no funcional:</strong> ¿con qué nivel de calidad o bajo qué condición debe realizarse?</li>
+        <li><strong>Validación:</strong> ¿cómo comprobarás que se cumple?</li>
+    </ul>
+
+    <h2>6. Revisa tus requisitos antes de entregarlos</h2>
+    <ol>
+        <li>¿Cada requisito se entiende sin explicaciones adicionales?</li>
+        <li>¿Está relacionado con una necesidad real del usuario?</li>
+        <li>¿No mezcla varias necesidades en una sola frase?</li>
+        <li>¿Se puede comprobar o validar?</li>
+        <li>¿El usuario confirmó que representa lo que necesita?</li>
+    </ol>
+    <p>Para ampliar el tema, consulta la guía de <a href="https://www.atlassian.com/agile/product-management/requirements" target="_blank" rel="noopener noreferrer">Atlassian sobre requisitos de producto</a>.</p>
+
+    <p><a href="index.html">Regresar al índice principal</a></p>
+
+    <!-- Decisión de etiquetas: utilicé h1, h2 y h3 para organizar los temas por niveles y facilitar la lectura. -->
+    <!-- Atributo utilizado: agregué alt a la imagen para describir su contenido si no puede visualizarse. -->
+    <!-- Mejora después de probar la página: agregué un enlace para regresar al índice y facilitar la navegación. -->
+</body>
+</html>
